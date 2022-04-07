@@ -1,31 +1,12 @@
-# ProjectAngular
+Nama    : Fatin Dzakiyah
+Kode    : FSDO003ONL002
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.17.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# todo-app-angular
-# todo-app-angular
-# todo-app-angular
-# todo-app-angular
+Petunjuk Penggunaan Aplikasi TodoApp
+1. Jalankan perintah "ng serve" pada terminal.
+2. Tampil halaman utama aplikasi TodoApp yang berisi fitur untuk menambahkan todo, daftar todo yang belum dilakukan (Todo), dan daftar todo yang selesai dilakukan (Done), dengan inisiasi terdapat dua item dalam daftar Todo.
+3. Jika daftar Todo kosong maka terdapat tulisan berupa "Nothing todo" dan jika daftar Done kosong maka akan terdapat tulisan berupa "Nothing done".
+4. Untuk menambahkan todo baru, pengguna harus menginputkan teks pada kolom yang disediakan pada Add Something Todo lalu klik tombol Add. Jika pengguna tidak menginputkan sesuatu atau hanya menginputkan berupa space, maka akan muncul pesan "Please input something".
+5. Setelah berhasil menambahkan todo baru, maka otomatis akan masuk pada daftar Todo.
+6. Jika pengguna ingin mengubah item todo yang belum dilakukan menjadi sudah dilakukan, klik tombol checklist berwarna kuning pada daftar Todo.
+7. Jika pengguna salah menekan atau ingin membatalkan status todo yang selesai dilakukan menjadi belum dilakukan, klik tombol undo berwarna kuning pada daftar Done. 
+8. Jika pengguna ingin menghapus item pada daftar Todo maupun daftar Done, klik tombol hapus berwarna merah.
