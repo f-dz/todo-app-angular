@@ -1,0 +1,11 @@
+<form>
+    <div class="row">
+        <div class="col-8">
+            <input type="text" name="inputTodo" placeholder="Enter todo.. " class="form-control " [(ngModel)]="inputTodo " />
+        </div>
+        <div class="col">
+            <input type="submit" value="Add" class="btn btn-primary " (click)="addTodo() " />
+        </div>
+    </div>
+    <div class="message">{{message}}</div>
+</form>
